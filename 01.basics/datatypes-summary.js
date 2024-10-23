@@ -33,3 +33,29 @@ console.log("Hello World");
 
 }
 // JavaScript is a dynamically typed language. Because data type will automatically assigned at the time of compilation or code execution.
+
+
+// *****************************************************
+
+// stack (primmitive), Heap (non-primitive)
+
+let myName = "chandini"
+
+let anotherName ="myName"
+anotherName="swathi"
+
+console.log(anotherName);
+console.log(myName);
+
+let user1={
+    email: "exampl@gm.com",
+upi: "exampl@ybl",
+}
+
+
+let user2= user1
+
+user2.email="user@gm.com"
+
+console.log(user1.email);
+console.log(user2.email);
