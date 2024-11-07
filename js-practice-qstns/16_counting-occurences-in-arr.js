@@ -1,3 +1,4 @@
+//You need to count how many times each element appears in an array.
 function countOccurrencies(...args) {
   const countObj = {};
   for (const element of args) {
